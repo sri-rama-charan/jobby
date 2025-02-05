@@ -1,0 +1,11 @@
+.jobs-main-container {
+  background-color: #000000;
+  min-height: 110vh;
+  background-size: cover;
+}
+
+@media (min-width: 728px) {
+  .jobs-main-container {
+    display: flex;
+  }
+}

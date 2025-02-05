@@ -1,0 +1,22 @@
+.home-content-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+}
+.home-mobile-icon {
+}
+.nav-image {
+  height: 35px;
+}
+.find-jobs-btn {
+  color: white;
+  background-color: #6366f1;
+}
+@media (min-width: 768px) {
+  .home-content-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  }
+  .home-desktop-icon {
+    display: none;
+  }
+}

@@ -1,0 +1,39 @@
+.jobs-filters-bg-container {
+  background-color: #000000;
+  height: 110vh;
+  background-size: cover;
+}
+.input-bg-container {
+  border: 1px solid #f1f5f9;
+  border-radius: 3px;
+}
+.input-element {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none !important;
+}
+.profile-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 200px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-top: 10px;
+}
+#salary1 {
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .jobs-filters-bg-container {
+    width: 20%;
+    max-height: 100vh;
+  }
+  .input-bg-container {
+    display: none;
+  }
+  .profile-bg-container {
+    margin-top: 20px !important;
+  }
+}

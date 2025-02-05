@@ -1,0 +1,14 @@
+.card-bg-container {
+  background-color: #272727;
+  border-radius: 8px;
+  min-width: 100%;
+}
+
+.gap-md {
+  gap: 12px;
+}
+@media (min-width: 768px) {
+  .gap-md {
+    gap: 12px;
+  }
+}
